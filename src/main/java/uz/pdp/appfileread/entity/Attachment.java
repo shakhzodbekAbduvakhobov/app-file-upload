@@ -1,4 +1,4 @@
-package com.example.appfileread.entity;
+package uz.pdp.appfileread.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,11 +16,10 @@ public class Attachment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Integer id;
+    private Integer id;
 
     private String fileName;
-
     private long size;
-
     private String contentType;
+    private String name;
 }

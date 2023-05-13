@@ -1,4 +1,4 @@
-package com.example.appfileread.entity;
+package uz.pdp.appfileread.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -13,11 +13,10 @@ public class AttachmentContent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Integer id;
+    private Integer id;
 
-    private byte[] mainContent;
+    private byte[] content;
 
     @OneToOne
     private Attachment attachment;
-
 }

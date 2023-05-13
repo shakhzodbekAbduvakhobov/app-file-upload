@@ -8,7 +8,7 @@
         <version>3.0.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>uz.pdp</groupId>
     <artifactId>app-file-read</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>app-file-read</name>

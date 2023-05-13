@@ -1,7 +1,7 @@
-package com.example.appfileread.repository;
+package uz.pdp.appfileread.repository;
 
-import com.example.appfileread.entity.AttachmentContent;
 import org.springframework.data.jpa.repository.JpaRepository;
+import uz.pdp.appfileread.entity.AttachmentContent;
 
 import java.util.Optional;
 
